@@ -48,11 +48,11 @@
       transform: translate3d(0, 0, 0); }
   .menu-branding {
     background: #444;
-    opacity: 1;
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
-      transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0);
+      opacity: 1; }
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
@@ -253,7 +253,7 @@ main {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
   main {
     align-items: center;
     text-align: center; }
