@@ -48,6 +48,7 @@
       transform: translate3d(0, 0, 0); }
   .menu-branding {
     background: #444;
+    opacity: 1;
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
